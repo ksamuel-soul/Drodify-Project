@@ -510,9 +510,25 @@ table tr td img{
         font-size: 70%;
     }
 
-    .menu-course i, h3{
-        font-size: 70%;
+    .main-course, .item-1, .item-2, .item-3{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-cards i, h3{
+        font-size: 80%;
         width: 100%;
     }
+    .main-course:hover, .item-1:hover, .item-2:hover, .item-3:hover{
+        font-size: 85%;
+    }
+
+    .check-out{
+        width: 100%;
+    }
+
+    
 
 }
