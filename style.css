@@ -152,6 +152,10 @@ table tr td img{
     text-align: center;
 }
 
+.responsive{
+    display: none;
+}
+
 .check-out{
     width: 25%;
     border: 2px solid whitesmoke;
@@ -529,6 +533,80 @@ table tr td img{
         width: 100%;
     }
 
-    
+    table tr td .dish-name p{
+        font-size: 45%;
+        font-weight: 650;
+        border: 1px solid green;
+        overflow-x: scroll;
+    }
+
+    .responsive{
+        display: block;
+        width: 100%;
+        margin: 0% 3% 3% 0%;
+        border-color: grey;
+    }
+
+    .header .name h3, i{
+        font-size: 90%;
+    }
+
+    .header .options p{
+        font-size: 75%;
+    }
+
+    .order-id h4, i, p{
+        font-size: 80%;
+    }
+
+    .assign-table i, p{
+        font-size: 70%;
+    }
+
+    /* .select-restaurant{
+        height: 45px;
+    } */
+
+    .select-restaurant select{
+        font-size: 70%;
+        height: 40px;
+    }
+
+    .apply-coupon i{
+        margin-left: 5%;
+    }
+
+    .apply-coupon input{
+        height: 25px;
+        font-size: 13px;
+        margin-right: 5%;
+    }
+
+    .pay-desc p, .pay-price p{
+        font-weight: 500;
+    }
+
+    .total{
+        text-align: center;
+    }
+
+    .payment h4{
+        font-size: 85%;
+    }
+
+    .pay-method p{
+        font-size: 75%;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .billing p{
+        font-size: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
